@@ -4,12 +4,9 @@ library(meta)
 
 ####################Data for meta-analysis########################
 dengue_data <- data.frame(
-  Author = c("Buntubatu et al., (2019)", "Baqi et al., (2022)", "Bhatt et al., (2020)", 
-             "Gupta et al., (2022)", "Hussain et al., (2017)", "Li et al., (2016)", 
-             "Mansanguan et al., (2021)", "Salgado et al., (2010)", "Satarasinghe et al., (2007)", 
-             "Soneja et al., (2019)", "Weerakoon et al., (2011)", "Yadav et al., (2013)"),
-  Events = c(39, 42, 13, 40, 24, 201, 2, 11, 42, 11, 45, 32), # Myocarditis cases
-  N = c(50, 1008, 182, 150, 128, 351, 81, 102, 174, 183, 319, 67) # Total sample size
+  Author = c(),
+  Events = c(), # Myocarditis cases
+  N = c() # Total sample size
 )
 
 ####################Step 1: Calculate observed proportions######################
